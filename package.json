@@ -1,0 +1,14 @@
+{
+  "name": "typescript-sandbox",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/knockout": "^3.4.40",
+    "typescript": "^2.3.4"
+  },
+  "scripts": {
+    "build": "tsc -p .",
+    "watch": "tsc -w -p ."
+  }
+}
